@@ -1,0 +1,327 @@
+ -- Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+ -- Your use of Altera Corporation's design tools, logic functions 
+ -- and other software and tools, and its AMPP partner logic 
+ -- functions, and any output files from any of the foregoing 
+ -- (including device programming or simulation files), and any 
+ -- associated documentation or information are expressly subject 
+ -- to the terms and conditions of the Altera Program License 
+ -- Subscription Agreement, the Altera Quartus II License Agreement,
+ -- the Altera MegaCore Function License Agreement, or other 
+ -- applicable license agreement, including, without limitation, 
+ -- that your use is for the sole purpose of programming logic 
+ -- devices manufactured by Altera and sold by Altera or its 
+ -- authorized distributors.  Please refer to the applicable 
+ -- agreement for further details.
+ -- 
+ -- This is a Quartus II output file. It is for reporting purposes only, and is
+ -- not intended for use as a Quartus II input file. This file cannot be used
+ -- to make Quartus II pin assignments - for instructions on how to make pin
+ -- assignments, please see Quartus II help.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- NC            : No Connect. This pin has no internal connection to the device.
+ -- DNU           : Do Not Use. This pin MUST NOT be connected.
+ -- VCCINT        : Dedicated power pin, which MUST be connected to VCC  (1.2V).
+ -- VCCIO         : Dedicated power pin, which MUST be connected to VCC
+ --                 of its bank.
+ --                  Bank 1:       2.5V
+ --                  Bank 2:       2.5V
+ --                  Bank 3:       2.5V
+ --                  Bank 4:       2.5V
+ --                  Bank 5:       2.5V
+ --                  Bank 6:       2.5V
+ --                  Bank 7:       2.5V
+ --                  Bank 8:       2.5V
+ -- GND           : Dedicated ground pin. Dedicated GND pins MUST be connected to GND.
+ --                  It can also be used to report unused dedicated pins. The connection
+ --                  on the board for unused dedicated pins depends on whether this will
+ --                  be used in a future design. One example is device migration. When
+ --                  using device migration, refer to the device pin-tables. If it is a
+ --                  GND pin in the pin table or if it will not be used in a future design
+ --                  for another purpose the it MUST be connected to GND. If it is an unused
+ --                  dedicated pin, then it can be connected to a valid signal on the board
+ --                  (low, high, or toggling) if that signal is required for a different
+ --                  revision of the design.
+ -- GND+          : Unused input pin. It can also be used to report unused dual-purpose pins.
+ --                  This pin should be connected to GND. It may also be connected  to a
+ --                  valid signal  on the board  (low, high, or toggling)  if that signal
+ --                  is required for a different revision of the design.
+ -- GND*          : Unused  I/O  pin. Connect each pin marked GND* directly to GND
+ --                  or leave it unconnected.
+ -- RESERVED      : Unused I/O pin, which MUST be left unconnected.
+ -- RESERVED_INPUT    : Pin is tri-stated and should be connected to the board.
+ -- RESERVED_INPUT_WITH_WEAK_PULLUP    : Pin is tri-stated with internal weak pull-up resistor.
+ -- RESERVED_INPUT_WITH_BUS_HOLD       : Pin is tri-stated with bus-hold circuitry.
+ -- RESERVED_OUTPUT_DRIVEN_HIGH        : Pin is output driven high.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- Pin directions (input, output or bidir) are based on device operating in user mode.
+ ---------------------------------------------------------------------------------
+
+Quartus II 64-Bit Version 15.0.0 Build 145 04/22/2015 SJ Web Edition
+CHIP  "receptor"  ASSIGNED TO AN: EP4CE22F17C6
+
+Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
+-------------------------------------------------------------------------------------------------------------
+VCCIO8                       : A1        : power  :                   : 2.5V    : 8         :                
+saidaIndex[2]                : A2        : output : 2.5 V             :         : 8         : N              
+saidaIndex[3]                : A3        : output : 2.5 V             :         : 8         : N              
+saidaVetor[0]                : A4        : output : 2.5 V             :         : 8         : N              
+saidamsgdecodificada[2]      : A5        : output : 2.5 V             :         : 8         : N              
+saidaVetor[6]                : A6        : output : 2.5 V             :         : 8         : N              
+saidaEstadoAtual[15]         : A7        : output : 2.5 V             :         : 8         : N              
+GND+                         : A8        :        :                   :         : 8         :                
+GND+                         : A9        :        :                   :         : 7         :                
+saidaIndex[14]               : A10       : output : 2.5 V             :         : 7         : N              
+saidamensagem[3]             : A11       : output : 2.5 V             :         : 7         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : A12       :        :                   :         : 7         :                
+saidamensagem[1]             : A13       : output : 2.5 V             :         : 7         : Y              
+saidaEstadoAtual[10]         : A14       : output : 2.5 V             :         : 7         : N              
+saidamensagem[0]             : A15       : output : 2.5 V             :         : 7         : Y              
+VCCIO7                       : A16       : power  :                   : 2.5V    : 7         :                
+saidamensagem[6]             : B1        : output : 2.5 V             :         : 1         : Y              
+GND                          : B2        : gnd    :                   :         :           :                
+saidaIndex[1]                : B3        : output : 2.5 V             :         : 8         : N              
+saidaFlag                    : B4        : output : 2.5 V             :         : 8         : N              
+saidaVetor[8]                : B5        : output : 2.5 V             :         : 8         : N              
+saidaVetor[2]                : B6        : output : 2.5 V             :         : 8         : N              
+saidaVetor[5]                : B7        : output : 2.5 V             :         : 8         : N              
+GND+                         : B8        :        :                   :         : 8         :                
+GND+                         : B9        :        :                   :         : 7         :                
+saidaIndex[10]               : B10       : output : 2.5 V             :         : 7         : N              
+saidaIndex[20]               : B11       : output : 2.5 V             :         : 7         : N              
+saidaEstadoAtual[30]         : B12       : output : 2.5 V             :         : 7         : N              
+saidamensagem[2]             : B13       : output : 2.5 V             :         : 7         : Y              
+saidaIndex[30]               : B14       : output : 2.5 V             :         : 7         : N              
+GND                          : B15       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : B16       :        :                   :         : 6         :                
+~ALTERA_ASDO_DATA1~ / RESERVED_INPUT_WITH_WEAK_PULLUP : C1        : input  : 2.5 V             :         : 1         : N              
+saidaVetor[13]               : C2        : output : 2.5 V             :         : 1         : N              
+clock                        : C3        : input  : 2.5 V             :         : 8         : Y              
+VCCIO8                       : C4        : power  :                   : 2.5V    : 8         :                
+GND                          : C5        : gnd    :                   :         :           :                
+saidaEstadoAtual[0]          : C6        : output : 2.5 V             :         : 8         : N              
+VCCIO8                       : C7        : power  :                   : 2.5V    : 8         :                
+saidaEstadoAtual[29]         : C8        : output : 2.5 V             :         : 8         : N              
+saidaIndex[5]                : C9        : output : 2.5 V             :         : 7         : N              
+VCCIO7                       : C10       : power  :                   : 2.5V    : 7         :                
+saidaIndex[21]               : C11       : output : 2.5 V             :         : 7         : N              
+GND                          : C12       : gnd    :                   :         :           :                
+VCCIO7                       : C13       : power  :                   : 2.5V    : 7         :                
+saidaEstadoAtual[26]         : C14       : output : 2.5 V             :         : 7         : N              
+saidaIndex[19]               : C15       : output : 2.5 V             :         : 6         : N              
+saidaIndex[29]               : C16       : output : 2.5 V             :         : 6         : N              
+saidamensagem[4]             : D1        : output : 2.5 V             :         : 1         : Y              
+~ALTERA_FLASH_nCE_nCSO~ / RESERVED_INPUT_WITH_WEAK_PULLUP : D2        : input  : 2.5 V             :         : 1         : N              
+entrada                      : D3        : input  : 2.5 V             :         : 8         : Y              
+VCCD_PLL3                    : D4        : power  :                   : 1.2V    :           :                
+saidaIndex[0]                : D5        : output : 2.5 V             :         : 8         : N              
+saidamsgdecodificada[0]      : D6        : output : 2.5 V             :         : 8         : N              
+GND                          : D7        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D8        :        :                   :         : 8         :                
+saidaEstadoAtual[3]          : D9        : output : 2.5 V             :         : 7         : N              
+GND                          : D10       : gnd    :                   :         :           :                
+saidaIndex[8]                : D11       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D12       :        :                   :         : 7         :                
+VCCD_PLL2                    : D13       : power  :                   : 1.2V    :           :                
+saidaIndex[25]               : D14       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D15       :        :                   :         : 6         :                
+saidaEstadoAtual[27]         : D16       : output : 2.5 V             :         : 6         : N              
+GND+                         : E1        :        :                   :         : 1         :                
+GND                          : E2        : gnd    :                   :         :           :                
+VCCIO1                       : E3        : power  :                   : 2.5V    : 1         :                
+GND                          : E4        : gnd    :                   :         :           :                
+GNDA3                        : E5        : gnd    :                   :         :           :                
+saidamsgdecodificada[1]      : E6        : output : 2.5 V             :         : 8         : N              
+saidamsgdecodificada[3]      : E7        : output : 2.5 V             :         : 8         : N              
+saidaVetor[3]                : E8        : output : 2.5 V             :         : 8         : N              
+saidaIndex[23]               : E9        : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : E10       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : E11       :        :                   :         : 7         :                
+GNDA2                        : E12       : gnd    :                   :         :           :                
+GND                          : E13       : gnd    :                   :         :           :                
+VCCIO6                       : E14       : power  :                   : 2.5V    : 6         :                
+GND+                         : E15       :        :                   :         : 6         :                
+GND+                         : E16       :        :                   :         : 6         :                
+saidaIndice                  : F1        : output : 2.5 V             :         : 1         : N              
+saidaVetor[15]               : F2        : output : 2.5 V             :         : 1         : N              
+saidamensagem[5]             : F3        : output : 2.5 V             :         : 1         : Y              
+nSTATUS                      : F4        :        :                   :         : 1         :                
+VCCA3                        : F5        : power  :                   : 2.5V    :           :                
+GND                          : F6        : gnd    :                   :         :           :                
+VCCINT                       : F7        : power  :                   : 1.2V    :           :                
+saidaEstadoAtual[2]          : F8        : output : 2.5 V             :         : 8         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : F9        :        :                   :         : 7         :                
+GND                          : F10       : gnd    :                   :         :           :                
+VCCINT                       : F11       : power  :                   : 1.2V    :           :                
+VCCA2                        : F12       : power  :                   : 2.5V    :           :                
+saidaIndex[26]               : F13       : output : 2.5 V             :         : 6         : N              
+saidaIndex[18]               : F14       : output : 2.5 V             :         : 6         : N              
+saidaEstadoAtual[13]         : F15       : output : 2.5 V             :         : 6         : N              
+~ALTERA_nCEO~ / RESERVED_OUTPUT_OPEN_DRAIN : F16       : output : 2.5 V             :         : 6         : N              
+saidaVetor[7]                : G1        : output : 2.5 V             :         : 1         : N              
+saidaVetor[4]                : G2        : output : 2.5 V             :         : 1         : N              
+VCCIO1                       : G3        : power  :                   : 2.5V    : 1         :                
+GND                          : G4        : gnd    :                   :         :           :                
+saidaVetor[10]               : G5        : output : 2.5 V             :         : 1         : N              
+VCCINT                       : G6        : power  :                   : 1.2V    :           :                
+VCCINT                       : G7        : power  :                   : 1.2V    :           :                
+VCCINT                       : G8        : power  :                   : 1.2V    :           :                
+VCCINT                       : G9        : power  :                   : 1.2V    :           :                
+VCCINT                       : G10       : power  :                   : 1.2V    :           :                
+GND                          : G11       : gnd    :                   :         :           :                
+MSEL2                        : G12       :        :                   :         : 6         :                
+GND                          : G13       : gnd    :                   :         :           :                
+VCCIO6                       : G14       : power  :                   : 2.5V    : 6         :                
+saidaEstadoAtual[21]         : G15       : output : 2.5 V             :         : 6         : N              
+saidaEstadoAtual[28]         : G16       : output : 2.5 V             :         : 6         : N              
+~ALTERA_DCLK~                : H1        : output : 2.5 V             :         : 1         : N              
+~ALTERA_DATA0~ / RESERVED_INPUT_WITH_WEAK_PULLUP : H2        : input  : 2.5 V             :         : 1         : N              
+TCK                          : H3        : input  :                   :         : 1         :                
+TDI                          : H4        : input  :                   :         : 1         :                
+nCONFIG                      : H5        :        :                   :         : 1         :                
+VCCINT                       : H6        : power  :                   : 1.2V    :           :                
+GND                          : H7        : gnd    :                   :         :           :                
+GND                          : H8        : gnd    :                   :         :           :                
+GND                          : H9        : gnd    :                   :         :           :                
+GND                          : H10       : gnd    :                   :         :           :                
+VCCINT                       : H11       : power  :                   : 1.2V    :           :                
+MSEL1                        : H12       :        :                   :         : 6         :                
+MSEL0                        : H13       :        :                   :         : 6         :                
+CONF_DONE                    : H14       :        :                   :         : 6         :                
+GND                          : H15       : gnd    :                   :         :           :                
+GND                          : H16       : gnd    :                   :         :           :                
+saidaVetor[9]                : J1        : output : 2.5 V             :         : 2         : N              
+saidaVetor[12]               : J2        : output : 2.5 V             :         : 2         : N              
+nCE                          : J3        :        :                   :         : 1         :                
+TDO                          : J4        : output :                   :         : 1         :                
+TMS                          : J5        : input  :                   :         : 1         :                
+VCCINT                       : J6        : power  :                   : 1.2V    :           :                
+GND                          : J7        : gnd    :                   :         :           :                
+GND                          : J8        : gnd    :                   :         :           :                
+GND                          : J9        : gnd    :                   :         :           :                
+GND                          : J10       : gnd    :                   :         :           :                
+GND                          : J11       : gnd    :                   :         :           :                
+VCCINT                       : J12       : power  :                   : 1.2V    :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : J13       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : J14       :        :                   :         : 5         :                
+saidaEstadoAtual[23]         : J15       : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : J16       :        :                   :         : 5         :                
+saidaVetor[1]                : K1        : output : 2.5 V             :         : 2         : N              
+saidaEstadoAtual[1]          : K2        : output : 2.5 V             :         : 2         : N              
+VCCIO2                       : K3        : power  :                   : 2.5V    : 2         :                
+GND                          : K4        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : K5        :        :                   :         : 2         :                
+GND                          : K6        : gnd    :                   :         :           :                
+VCCINT                       : K7        : power  :                   : 1.2V    :           :                
+GND                          : K8        : gnd    :                   :         :           :                
+VCCINT                       : K9        : power  :                   : 1.2V    :           :                
+VCCINT                       : K10       : power  :                   : 1.2V    :           :                
+VCCINT                       : K11       : power  :                   : 1.2V    :           :                
+GND                          : K12       : gnd    :                   :         :           :                
+GND                          : K13       : gnd    :                   :         :           :                
+VCCIO5                       : K14       : power  :                   : 2.5V    : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : K15       :        :                   :         : 5         :                
+saidaEstadoAtual[11]         : K16       : output : 2.5 V             :         : 5         : N              
+saidaVetor[14]               : L1        : output : 2.5 V             :         : 2         : N              
+saidaVetor[11]               : L2        : output : 2.5 V             :         : 2         : N              
+saidamensagem[7]             : L3        : output : 2.5 V             :         : 2         : Y              
+RESERVED_INPUT_WITH_WEAK_PULLUP : L4        :        :                   :         : 2         :                
+VCCA1                        : L5        : power  :                   : 2.5V    :           :                
+VCCINT                       : L6        : power  :                   : 1.2V    :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : L7        :        :                   :         : 3         :                
+saidaIndex[15]               : L8        : output : 2.5 V             :         : 3         : N              
+GND                          : L9        : gnd    :                   :         :           :                
+GND                          : L10       : gnd    :                   :         :           :                
+GND                          : L11       : gnd    :                   :         :           :                
+VCCA4                        : L12       : power  :                   : 2.5V    :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : L13       :        :                   :         : 5         :                
+saidaEstadoAtual[5]          : L14       : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : L15       :        :                   :         : 5         :                
+saidaIndex[12]               : L16       : output : 2.5 V             :         : 5         : N              
+GND+                         : M1        :        :                   :         : 2         :                
+GND+                         : M2        :        :                   :         : 2         :                
+VCCIO2                       : M3        : power  :                   : 2.5V    : 2         :                
+GND                          : M4        : gnd    :                   :         :           :                
+GNDA1                        : M5        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : M6        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : M7        :        :                   :         : 3         :                
+saidaEstadoAtual[14]         : M8        : output : 2.5 V             :         : 3         : N              
+VCCINT                       : M9        : power  :                   : 1.2V    :           :                
+saidaEstadoAtual[19]         : M10       : output : 2.5 V             :         : 4         : N              
+VCCINT                       : M11       : power  :                   : 1.2V    :           :                
+GNDA4                        : M12       : gnd    :                   :         :           :                
+GND                          : M13       : gnd    :                   :         :           :                
+VCCIO5                       : M14       : power  :                   : 2.5V    : 5         :                
+GND+                         : M15       :        :                   :         : 5         :                
+GND+                         : M16       :        :                   :         : 5         :                
+saidaEstadoAtual[22]         : N1        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : N2        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : N3        :        :                   :         : 3         :                
+VCCD_PLL1                    : N4        : power  :                   : 1.2V    :           :                
+saidaEstadoAtual[8]          : N5        : output : 2.5 V             :         : 3         : N              
+saidaIndex[28]               : N6        : output : 2.5 V             :         : 3         : N              
+GND                          : N7        : gnd    :                   :         :           :                
+saidaEstadoAtual[4]          : N8        : output : 2.5 V             :         : 3         : N              
+saidaIndex[9]                : N9        : output : 2.5 V             :         : 4         : N              
+GND                          : N10       : gnd    :                   :         :           :                
+saidaIndex[17]               : N11       : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : N12       :        :                   :         : 4         :                
+VCCD_PLL4                    : N13       : power  :                   : 1.2V    :           :                
+saidaEstadoAtual[16]         : N14       : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : N15       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : N16       :        :                   :         : 5         :                
+saidaEstadoAtual[18]         : P1        : output : 2.5 V             :         : 2         : N              
+saidaIndex[16]               : P2        : output : 2.5 V             :         : 2         : N              
+saidaEstadoAtual[24]         : P3        : output : 2.5 V             :         : 3         : N              
+VCCIO3                       : P4        : power  :                   : 2.5V    : 3         :                
+GND                          : P5        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : P6        :        :                   :         : 3         :                
+VCCIO3                       : P7        : power  :                   : 2.5V    : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : P8        :        :                   :         : 3         :                
+saidaIndex[4]                : P9        : output : 2.5 V             :         : 4         : N              
+VCCIO4                       : P10       : power  :                   : 2.5V    : 4         :                
+saidaIndex[11]               : P11       : output : 2.5 V             :         : 4         : N              
+GND                          : P12       : gnd    :                   :         :           :                
+VCCIO4                       : P13       : power  :                   : 2.5V    : 4         :                
+saidaEstadoAtual[12]         : P14       : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : P15       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : P16       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : R1        :        :                   :         : 2         :                
+GND                          : R2        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : R3        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : R4        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : R5        :        :                   :         : 3         :                
+saidaIndex[27]               : R6        : output : 2.5 V             :         : 3         : N              
+saidaIndex[22]               : R7        : output : 2.5 V             :         : 3         : N              
+clkPlaca                     : R8        : input  : 2.5 V             :         : 3         : Y              
+GND+                         : R9        :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : R10       :        :                   :         : 4         :                
+saidaEstadoAtual[7]          : R11       : output : 2.5 V             :         : 4         : N              
+saidaEstadoAtual[17]         : R12       : output : 2.5 V             :         : 4         : N              
+saidaIndex[13]               : R13       : output : 2.5 V             :         : 4         : N              
+saidaEstadoAtual[6]          : R14       : output : 2.5 V             :         : 4         : N              
+GND                          : R15       : gnd    :                   :         :           :                
+saidaIndex[24]               : R16       : output : 2.5 V             :         : 5         : N              
+VCCIO3                       : T1        : power  :                   : 2.5V    : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : T2        :        :                   :         : 3         :                
+saidaEstadoAtual[25]         : T3        : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : T4        :        :                   :         : 3         :                
+saidaEstadoAtual[20]         : T5        : output : 2.5 V             :         : 3         : N              
+saidaIndex[7]                : T6        : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : T7        :        :                   :         : 3         :                
+GND+                         : T8        :        :                   :         : 3         :                
+GND+                         : T9        :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : T10       :        :                   :         : 4         :                
+saidaIndex[6]                : T11       : output : 2.5 V             :         : 4         : N              
+saidaFlagFuncao              : T12       : output : 2.5 V             :         : 4         : N              
+saidaEstadoAtual[9]          : T13       : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : T14       :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : T15       :        :                   :         : 4         :                
+VCCIO4                       : T16       : power  :                   : 2.5V    : 4         :                

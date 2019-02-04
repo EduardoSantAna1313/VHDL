@@ -1,0 +1,11 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY clock IS
+PORT();
+END clock;
+
+ARCHITECTURE main OF clock IS
+BEGIN
+
+END main;

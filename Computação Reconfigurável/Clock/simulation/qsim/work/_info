@@ -1,0 +1,174 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Eduardo/Desktop/CR/Clock/simulation/qsim
+vclock
+!s110 1480684646
+!i10b 1
+!s100 If4O[e]_51OnJWjDih@D13
+IZ`iRQ_gHcZ>QI9UaXCMGI3
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1480684639
+Z2 8Clock.vo
+Z3 FClock.vo
+Z4 L0 32
+Z5 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1480684646.805000
+Z6 !s107 Clock.vo|
+Z7 !s90 -work|work|Clock.vo|
+!i113 1
+Z8 o-work work
+vClock
+Z9 !s110 1480975088
+!i10b 1
+!s100 P3a>6ZJY7l]A;i55MzNoz1
+IzHZ<88goBBHoF0HHDLW?60
+R1
+R0
+w1480975056
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+!s108 1480975087.493000
+R6
+R7
+!i113 1
+R8
+n@clock
+vClock_vlg_check_tst
+R9
+!i10b 1
+!s100 FO=;`CcD7AdR_7[X1DSK=2
+IUEE`?@7`Pcg<ZJ`oJCjTJ3
+R1
+R0
+Z10 w1480975054
+Z11 8Waveform.vwf.vt
+Z12 FWaveform.vwf.vt
+Z13 L0 58
+R5
+r1
+!s85 0
+31
+Z14 !s108 1480975088.092000
+Z15 !s107 Waveform.vwf.vt|
+Z16 !s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R8
+n@clock_vlg_check_tst
+vclock_vlg_check_tst
+Z17 !s110 1480684647
+!i10b 1
+!s100 iBmL@WD?J7MX3`dj4YRC>2
+IYQT81Oj4VHYhBif;S9N4U0
+R1
+R0
+Z18 w1480684636
+R11
+R12
+R13
+R5
+r1
+!s85 0
+31
+Z19 !s108 1480684646.945000
+R15
+R16
+!i113 1
+R8
+vClock_vlg_sample_tst
+R9
+!i10b 1
+!s100 4:i5kY2EXcTQ=ofF1cgZI0
+IaTS?a_LgQUdV:MkP`ICkQ1
+R1
+R0
+R10
+R11
+R12
+Z20 L0 30
+R5
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 1
+R8
+n@clock_vlg_sample_tst
+vclock_vlg_sample_tst
+R17
+!i10b 1
+!s100 N4Z78MYo4QU;elzKBN?B42
+IEcTS:1Q@b=1>PA?zC3gPA2
+R1
+R0
+R18
+R11
+R12
+R20
+R5
+r1
+!s85 0
+31
+R19
+R15
+R16
+!i113 1
+R8
+vClock_vlg_vec_tst
+R9
+!i10b 1
+!s100 X;AiLC07h<J?G<`RFoIZR3
+IhHn74f@RRbn[mI:6XXbg]1
+R1
+R0
+R10
+R11
+R12
+L0 153
+R5
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 1
+R8
+n@clock_vlg_vec_tst
+vclock_vlg_vec_tst
+R17
+!i10b 1
+!s100 7BUb`X>16f2G29OInDFcW2
+ISi<T>J8OXBL^LF:]^jdP50
+R1
+R0
+R18
+R11
+R12
+L0 155
+R5
+r1
+!s85 0
+31
+R19
+R15
+R16
+!i113 1
+R8

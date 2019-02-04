@@ -1,0 +1,149 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'codificado'
+Slack : -6.186
+TNS   : -6.186
+
+Type  : Slow 1200mV 85C Model Setup 'clkPlaca'
+Slack : -2.417
+TNS   : -8.295
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -1.446
+TNS   : -19.652
+
+Type  : Slow 1200mV 85C Model Setup 'clkDobro'
+Slack : -0.250
+TNS   : -1.030
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.124
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clkPlaca'
+Slack : 0.291
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clkDobro'
+Slack : 0.357
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'codificado'
+Slack : 1.111
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clkPlaca'
+Slack : -3.000
+TNS   : -11.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -1.000
+TNS   : -15.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clkDobro'
+Slack : -1.000
+TNS   : -6.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'codificado'
+Slack : 0.494
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'codificado'
+Slack : -5.539
+TNS   : -5.539
+
+Type  : Slow 1200mV 0C Model Setup 'clkPlaca'
+Slack : -2.038
+TNS   : -6.787
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -1.202
+TNS   : -16.059
+
+Type  : Slow 1200mV 0C Model Setup 'clkDobro'
+Slack : -0.113
+TNS   : -0.430
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.130
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clkPlaca'
+Slack : 0.281
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clkDobro'
+Slack : 0.310
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'codificado'
+Slack : 0.997
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clkPlaca'
+Slack : -3.000
+TNS   : -11.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -1.000
+TNS   : -15.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clkDobro'
+Slack : -1.000
+TNS   : -6.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'codificado'
+Slack : 0.489
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'codificado'
+Slack : -3.305
+TNS   : -3.305
+
+Type  : Fast 1200mV 0C Model Setup 'clkPlaca'
+Slack : -0.923
+TNS   : -2.307
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -0.363
+TNS   : -4.380
+
+Type  : Fast 1200mV 0C Model Setup 'clkDobro'
+Slack : 0.271
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : -0.007
+TNS   : -0.010
+
+Type  : Fast 1200mV 0C Model Hold 'clkPlaca'
+Slack : 0.105
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clkDobro'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'codificado'
+Slack : 0.604
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clkPlaca'
+Slack : -3.000
+TNS   : -11.432
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -1.000
+TNS   : -15.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clkDobro'
+Slack : -1.000
+TNS   : -6.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'codificado'
+Slack : 0.495
+TNS   : 0.000
+
+------------------------------------------------------------
