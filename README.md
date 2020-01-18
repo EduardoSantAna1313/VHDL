@@ -1,2 +1,2 @@
 # VHDL
-Projetos VHDL utilizando a placa de desenvolvimento De0 Nano
+Projetos VHDL utilizando a placa de desenvolvimento Terasic De0-Nano
